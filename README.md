@@ -1,5 +1,5 @@
 # emulator
 Simple stack machine emulator
 
-#Instructions set
+# Instructions set
 in instruction_set file
