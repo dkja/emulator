@@ -1,0 +1,10 @@
+
+executable("app")
+{
+    sources = [
+        "//src/main.cpp"
+    ]
+    include_dirs = [
+        "//include"
+    ]
+}
