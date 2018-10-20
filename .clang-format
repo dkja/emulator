@@ -1,0 +1,14 @@
+UseTab: Never
+IndentWidth: 4
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+ColumnLimit: 0
+Standard: Cpp11
+PointerAlignment: Left
+Cpp11BracedListStyle: true
+BreakConstructorInitializersBeforeComma: true
+MaxEmptyLinesToKeep: 5
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
