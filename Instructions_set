@@ -1,0 +1,30 @@
+00      HALT	-	-	1	-       Stop executing
+01      ADD	-	vv	1	v       
+02      SUB	-	vv	1	v
+03      MUL	-	vv	1	v
+04      DIV	-	vv	1	v
+05      MOD	-	vv	1	v	
+06      AND	-	vv	1	v
+07      OR	-       vv	1	v
+08      XOR	-	vv	1	v
+09      NOT	-	v	1	v
+0A      LSH	-	vv	1       v
+0B      RSH	-	vv	1	v	
+0C      NEG	-	v	1	v	Logic not (x == 0) ? 1 : 0
+0D      JZ	-	va	1	-
+0E      JG	-	va	1	-
+0F      JB	-	va	1	-	
+10      JMP	-	a	1	-
+11      SYS	-	?	1	?	System call	
+12      PUSH	v	-	9	v
+13      POP	-	-	1	-
+14      STORE	-	a	1	v
+15      LOAD	-	a	1	v
+16      STOREX	-	av	1	xv	Store [x words] to memory
+17      LOADX	-	av	1	xv	Load [x words] from memory	
+18      ACTIVE	-	s	1	-	Activate [S] stack
+19      SENDS	-	sv	1	-	Send [V words] data from stack to [S] stack 	
+-------|-------|-------|-------|-------|-------|-----------------------------------------
+Opcode  Mnem	Args	S_args	Size	Ret	Desc
+
+Instructions uses stack args as input and store results in stack.
