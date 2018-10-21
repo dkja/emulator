@@ -8,15 +8,22 @@ using namespace std;
 
 
 
-// processor
-// {
-//     executable_context
-// }
+processor
+{
+
+    run()
+
+protected:
+    load_memory()
+    load_memory_from_file();
+    
+    executable_context
+}
 
 // executable_context
 // {
-//     IP      { long long }
-//     SS      { long long }
+//     IP      { long long }    
+//     SS      { long long }    // io mapping ?? yes
 //     memory  { array<byte> }
 //     stacks  { array<stack> }
 // }
