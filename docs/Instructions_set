@@ -27,4 +27,4 @@
 -------|-------|-------|-------|-------|-------|-----------------------------------------
 Opcode  Mnem	Args	S_args	Size	Ret	Desc
 
-Instructions uses stack args as input and store results in stack.
+ARGS: Instructions uses stack args as input and store results in stack.
